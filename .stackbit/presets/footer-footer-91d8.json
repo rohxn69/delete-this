@@ -1,0 +1,85 @@
+{
+    "model": "Footer",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "footer",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "footer"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "primaryLinks": [
+                    {
+                        "$$type": "Link",
+                        "label": "Info",
+                        "altText": "",
+                        "url": "/info",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null
+                    },
+                    {
+                        "$$type": "Link",
+                        "label": "Contact",
+                        "altText": "",
+                        "url": "mailto:thisismyemail.@myemail.me",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null
+                    },
+                    {
+                        "$$type": "Link",
+                        "label": "Blog",
+                        "altText": "",
+                        "url": "/blog",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null
+                    },
+                    {
+                        "$$type": "Link",
+                        "label": "GitHub",
+                        "altText": "Netlify templates",
+                        "url": "https://github.com/netlify-templates",
+                        "showIcon": null,
+                        "icon": null,
+                        "iconPosition": null,
+                        "elementId": null
+                    }
+                ],
+                "contacts": {
+                    "$$type": "ContactBlock",
+                    "title": "Contact details",
+                    "phoneNumber": "850-123-5021",
+                    "phoneAltText": "My phone number",
+                    "email": "thisismyemail.@myemail.me",
+                    "emailAltText": "My email",
+                    "address": "312 Lovely Street, Brooklyn, NY, 123456",
+                    "addressAltText": "My address",
+                    "elementId": null
+                },
+                "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+                "styles": {
+                    "self": {
+                        "width": "narrow",
+                        "padding": [
+                            "pt-16",
+                            "pb-16",
+                            "pr-4",
+                            "pl-4"
+                        ]
+                    }
+                }
+            },
+            "thumbnail": "images/footer-footer-91d8.png"
+        }
+    ]
+}
